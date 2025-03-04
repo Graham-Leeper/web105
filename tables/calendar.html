@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+h1 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+table.calendar {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+table.calendar th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+
+table.calendar td {
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    height: 60px;
+}
+
+
+table.calendar td:nth-child(1), table.calendar td:nth-child(7) {
+    background-color: #f4f4f4;
+}
+
+
+table.calendar td:empty {
+    background-color: #f9f9f9;
+}
+
+
+table.calendar td:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html" class="button">Table Basics</a></li>
+<li><a href="styling-tables.html" class="button">Styling Tables</a></li>
+<li><a href="calendar.html" class="button">Creating a Calendar</a></li>
+</ul>
+</nav>
+</header>
+<h1>May 2025 Calendar</h1>
+    <table class="calendar">
+        <thead>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

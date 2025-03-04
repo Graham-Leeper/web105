@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+ 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 2px solid #333;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+
+th[rowspan="2"], td[rowspan="2"] {
+    background-color: #e2e2e2;
+}
+
+
+td:hover {
+    background-color: #ddd;
+}
+
+    </style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="index.html" class="button">Table Basics</a></li>
+<li><a href="styling-tables.html" class="button">Styling Tables</a></li>
+<li><a href="calendar.html" class="button">Creating a Calendar</a></li>
+</ul>
+</nav>
+</header>
+
+<table>
+    <tr>
+        <th rowspan="2">Time</th>
+        <th colspan="7">Days of the Week</th>
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+   
+    <tr>
+        <th>8:00 AM</th>
+        <td>Math</td>
+        <td>English</td>
+        <td>History</td>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+   
+    <tr>
+        <th>9:00 AM</th>
+        <td>Science</td>
+        <td>Math</td>
+        <td>Art</td>
+        <td>History</td>
+        <td>English</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+
+    <tr>
+        <th>10:00 AM</th>
+        <td>English</td>
+        <td>History</td>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Art</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+ 
+    <tr>
+        <th>11:00 AM</th>
+        <td>History</td>
+        <td>Science</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>History</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+ 
+    <tr>
+        <th>12:00 PM</th>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Lunch</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+ 
+    <tr>
+        <th>1:00 PM</th>
+        <td>History</td>
+        <td>Art</td>
+        <td>Science</td>
+        <td>English</td>
+        <td>Math</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+  
+    <tr>
+        <th>2:00 PM</th>
+        <td>Math</td>
+        <td>Science</td>
+        <td>History</td>
+        <td>Math</td>
+        <td>Art</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+   
+    <tr>
+        <th>3:00 PM</th>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+</table>
+</body>
+</html>
