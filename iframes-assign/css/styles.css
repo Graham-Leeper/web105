@@ -1,0 +1,45 @@
+
+* { /*My buddy's dad is a web developer and taught me this trick the other day*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+
+iframe {
+    display: block;
+    margin: 20px auto; 
+    border: 3px solid #ccc; 
+    border-radius: 8px; 
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto; 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1 + iframe {
+    margin-top: 20px;
+}
