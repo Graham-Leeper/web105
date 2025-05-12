@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #003366;
+    --accent-color: #f4b400;
+    --bg-color: #f9f9f9;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    background-color: var(--bg-color);
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  header h1 {
+    font-family: var(--font-heading);
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-family: var(--font-heading);
+    color: var(--accent-color);
+  }
+  
+  .intro-text {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .image-gallery {
+    overflow: auto;
+    margin-top: 2rem;
+  }
+  
+  figure {
+    width: 45%;
+    margin: 1rem;
+    padding: 0.5rem;
+    background: white;
+    border: 1px solid #ddd;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    clear: both;
+    margin-top: 3rem;
+  }
